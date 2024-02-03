@@ -1,0 +1,220 @@
+:root {
+    --secondary-color:#666;
+    --introduction-span-color:#FFFF;
+}
+
+
+* {
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.int-right-sid{
+    background-color: #08101d;
+
+}
+.int-left-sid{
+    background-color: #08101d;
+    color: #666;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #020A18;
+} 
+
+
+/* Mobile First */
+header {
+    display: flex;
+    /* TODO display: flex; sətir boyunca bizim elementleri düzür */
+
+    justify-content: space-between;
+    /* TODO  justify-content: space-between; img-nav arasına boşluq qoyur */
+
+    align-items: center;
+    /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
+
+
+}
+
+
+header i{
+    color: #FFFF;
+}
+
+header nav {
+    display: none;
+}
+
+header nav a {
+    color: #FFFF;
+    margin-right: 20px;
+    
+}
+
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+} 
+
+h2{
+    color: #3A68B8;
+    align-items: center;
+    display: flex;
+}
+
+
+.introduction .intro-left-side h1{
+    font-size: 55px;
+font-style: normal;
+font-weight: 800;
+}
+
+
+.introduction .intro-left-side h1  {
+    color: var(--introduction-span-color);
+}
+
+.introduction .intro-left-side article {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+    
+}
+
+.introduction .intro-left-side .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+font-size: 12px;
+}
+
+
+
+.introduction .intro-left-side .a {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+
+
+body .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+    padding: 2px 2px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-top: 0 auto;
+
+
+}
+
+
+
+@media(max-width:575px) {
+    .parentdiv {
+        max-width: 100%;
+    }
+}
+
+@media(min-width:576px) {
+.parentdiv {
+    max-width: 540px;
+    margin: 0 auto;
+}
+}
+
+@media(min-width:768px) {
+    .parentdiv {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+}
+
+
+@media(min-width:992px) {
+    .parentdiv {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    .introduction {
+        display: flex;
+        
+    }
+
+    .introduction .intro-left-side h1 {
+        font-size: 72px;
+
+       
+    }
+
+    .introduction .intro-left-side {
+        padding: 92px 0;
+    }
+
+    .introduction .intro-right-side {
+        padding-top: 72px;
+    }
+}
+
+@media(min-width:1200px) {
+    .parentdiv {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+}
+
+@media(min-width:768px) {
+header nav {
+    display: block;
+}
+
+.fa-bars {
+display: none;
+}
+}
+
+
+
+article{
+    padding: 10px 20px;
+}
+
+
+
+
+
+
+
+
+.book-a-calla {
+    margin-top: 40px;
+    
+}
