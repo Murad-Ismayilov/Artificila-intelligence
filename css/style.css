@@ -48,14 +48,14 @@ header nav a {
 }
 
 
-h3{
+.h3{
     color: #3A68B8;
     font-size: 18px;
 font-style: normal;
 font-weight: 600;
 } 
 
-h2{
+.h2{
     color: #3A68B8;
     align-items: center;
     display: flex;
