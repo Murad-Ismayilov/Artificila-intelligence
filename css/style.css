@@ -5,35 +5,21 @@
     --introduction-span-color:#FFFF;
 }
 
-
 * {
     text-decoration: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-
-
 body {
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;  
 } 
 
-
-/* Mobile First */
 header {
     display: flex;
-    /* TODO display: flex; sətir boyunca bizim elementleri düzür */
-
     justify-content: space-between;
-    /* TODO  justify-content: space-between; img-nav arasına boşluq qoyur */
-
     align-items: center;
-    /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
-
-
 }
-
 
 header i{
     color: #FFFF;
@@ -45,8 +31,7 @@ header nav {
 
 header nav a {
     color: #FFFF;
-    margin-right: 20px;
-    
+    margin-right: 20px;   
 }
 
 .h2{
@@ -58,21 +43,19 @@ header nav a {
 .h3{
     color: #3A68B8;
     font-size: 18px;
-font-style: normal;
-font-weight: 600;
+    font-style: normal;
+    font-weight: 600;
 } 
-
 
 .introduction .intro-left-side h1{
     font-size: 55px;
-font-style: normal;
-font-weight: 800;
+    font-style: normal;
+    font-weight: 800;
 }
 
 .introduction .intro-left-side h1  {
     color: var(--introduction-span-color);
 }
-
 
 .introduction .intro-left-side article {
     color:var(--secondary-color);
@@ -88,18 +71,16 @@ font-weight: 800;
     border-radius: 5px;
 }
 
-
 .introduction .intro-left-side .book {
     background: #3A68B8;
-   
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 12px;
 }
 
 .logoipsumlar img:hover{
@@ -107,35 +88,29 @@ font-size: 12px;
     -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
     box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
     border-radius: 20px;
-
-
 }
 
-
 .introduction .intro-left-side .a {
-    background: #3A68B8;
-   
+    background: #3A68B8;  
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
-
 body .book {
-    background: #3A68B8;
-   
+    background: #3A68B8;  
     color:#fff;
     width: 151px;
     height: 58px;
     padding: 2px 2px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-top: 0 auto;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;   
+    margin-top: 0 auto;
 }
 
 .Watch{
@@ -148,10 +123,7 @@ margin-top: 0 auto;
     justify-content: center;
     align-items: center;
     margin-top: 0 auto;
-
-
 }
-
 
 h1{
     font-size: 10px;
@@ -165,16 +137,14 @@ h1{
 .logoipsumlar{
     padding: 40px 40px;
     padding: 100px 0;
-    
 }
 
 .parentdiv{
     background-color: #08101e;
     padding:0 300px;
-    flex-shrink: 0;
-  
-   
 }
+
+
 /* TODO 1 sonu============================================================================================================================================*/
 
 
@@ -198,29 +168,26 @@ font-weight: 800;
 }
 
 .introduction .entrance-right-side .book {
-    background: #3A68B8;
-   
+    background: #3A68B8;  
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-font-size: 12px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 12px;
 }
-
 
 .introduction .entrance-right-side .a {
     background: #3A68B8;
-   
     color:#fff;
     width: 151px;
     height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
 }
 
 .h1{
@@ -235,18 +202,14 @@ margin-right: 10px;
 
 .entrance{
     background-color: #020a18;
-    padding:0 300px;
-    
-    
+    padding:0 300px;   
 }
+
+
 /* TODO 2 sonu================================================================================================================================ */
 
 
-
-
-
 /* TODO 3 bashlangic-------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 
 .logoipsumlar img:hover{
@@ -254,15 +217,13 @@ margin-right: 10px;
     -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
     box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
     border-radius: 20px;
-
-
 }
 
 
 .services-cards .card:hover{
     -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
--moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
+    box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
     border-radius: 0px;
 }
 
@@ -280,8 +241,6 @@ box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
     margin-bottom: 100px;
     background-color: #666;
     border-radius: 20px;
-   
-
 }
 
 .services-cards{
@@ -291,8 +250,7 @@ box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
     gap: 30px;
     display: flex;
     justify-content: space-between;
-   padding: 100px;
- 
+    padding: 100px;
 }
 
 h5:hover{
@@ -313,19 +271,15 @@ p:hover{
     font-size: 20px;
 }
 
-
 p{
     color: #FFFF;
     opacity: 0.8;
 }
 
-
 h5{
     color: #FFFFFF;
-    font-size: 20px;
-   
+    font-size: 20px;   
 }
-
 
 a:hover{
     -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
@@ -335,53 +289,117 @@ a:hover{
     border-radius: 20px;
 }
 
+
 /* TODO 3 sonu======================================================================================================================================*/
 
 
+/* TODO 4 bashlig------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.abzas .direction-left-side h1{
+    font-size: 55px;
+font-style: normal;
+font-weight: 800;
+}
+
+.abzas .direction-left-side h1  {
+    color: var(--introduction-span-color);
+}
+
+.abzas .direction-left-side article {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.abzas .direction-left-side .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+font-size: 12px;
+}
+
+.abzas .direction-left-side .a {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+}
+
+.abzas .direction-left-side .h2 {
+    font-size: 72px;
+    color: #FFFF;  
+}
+
+.hisse{
+    background-color: #020a18;
+    padding:0 300px;
+    margin-left: 0;
+}
+
+
+/* TODO 4 sonu================================================================================================================================ */
+
+
 @media(max-width:575px) {
-    .parentdiv {
-        flex-shrink: 0;
+    .parentdiv {  
         max-width: 100%;
     }
     .entrance {
         max-width: 100%;
-        flex-shrink: 0;
     }
-}
+    .hisse {
+        max-width: 100%;
+    }
 
+}
 
 @media(min-width:576px) {
 .parentdiv {
     max-width: 540px;
     margin: 0 auto;
-    flex-shrink: 0;
+    
 }
 .entrance {
     max-width: 540px;
     margin: 0 auto;
 }
+.hisse{
+    max-width: 540px;
+    margin: 0 auto;
 }
-
+}
 
 @media(min-width:768px) {
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
-        flex-shrink: 0;
+        
     }
     .entrance {
         max-width: 720px;
         margin: 0 auto;
     }
+    .hisse {
+        max-width: 720px;
+        margin: 0 auto;
+    }
 }
-
-
 
 @media(min-width:992px) {
     .parentdiv {
         max-width: 960px;
         margin: 0 auto;
-        flex-shrink: 0;
     }
 
     .introduction {
@@ -426,214 +444,50 @@ a:hover{
         padding-top: 72px;
         
     }
-   
-    
-    
-}
-
-
-@media(min-width:1200px) {
-    .parentdiv {
-        max-width: 1140px;
-        margin: 0 auto;
-        flex-shrink: 0;
-    }
-    
-    .entrance {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-
-}
-
-
-@media(min-width:768px) {
-header nav {
-    display: block;
-}
-
-.fa-bars {
-display: none;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* TODO 4----------------------------------------------------------------------------------------*/
-
-
-
-.introduction2 .intro2-left-side h1{
-    font-size: 55px;
-font-style: normal;
-font-weight: 800;
-}
-
-.introduction2 .intro2-left-side h1  {
-    color: var(--introduction-span-color);
-}
-
-.introduction2 .intro2-left-side article {
-    color:var(--secondary-color);
-    font-weight: 400;
-}
-
-
-.introduction2 .intro2-left-side .book {
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 151px;
-    height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-font-size: 12px;
-}
-
-
-
-
-.introduction2 .intro2-left-side .a {
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 151px;
-    height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-}
-
-
-
-body .book {
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    padding: 2px 2px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-top: 0 auto;
-
-
-}
-
-.Watch{
-    background: #3A68B8;  
-    color:#fff;
-    width: 151px;
-    height: 53px;
-    padding: 2px 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0 auto;
-
-
-}
-
-h1{
-    font-size: 10px;
-}
-
-.logoipsumlar{
-    display: flex;
-    justify-content: space-between;
-}
-
-.logoipsumlar{
-    padding: 40px 40px;
-
-    
-}
-
-.entrance .direction-left-side .h2 {
-    font-size: 72px;
-    color: #FFFF;  
-}
-
-
-
-.parentdiv2{
-    background-color: #020a18;
-    padding:0 300px;
-    margin-left: 0;
-}
-
-
-
-
-@media(max-width:575px) {
-    .parentdiv2 {
-        max-width: 100%;
-    }
-}
-
-@media(min-width:576px) {
-.parentdiv2{
-    max-width: 540px;
-    margin: 0 auto;
-}
-}
-
-@media(min-width:768px) {
-    .parentdiv2 {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-}
-
-
-@media(min-width:992px) {
-    .parentdiv2 {
+    .hisse {
         max-width: 960px;
         margin: 0 auto;
     }
 
-    .introduction2 {
+    .abzas {
         display: flex;
         
     }
 
-    .introduction2 .intro2-left-side h1 {
+    .abzas .direction-left-side h1 {
         font-size: 55px;
         width: 700px;
 
        
     }
 
-    .introduction2 .intro2-left-side {
+    .abzas .direction-left-side {
         padding: 92px 0;
     }
 
-    .introduction2 .intro2-right-side  {
+    .abzas .direction-right-side  {
         padding-top: 72px;
     }
-
+   
     
     
 }
 
 @media(min-width:1200px) {
-    .parentdiv2 {
+    .parentdiv {
         max-width: 1140px;
         margin: 0 auto;
     }
+    
+    .entrance {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .hisse {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
 }
 
 @media(min-width:768px) {
