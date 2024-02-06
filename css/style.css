@@ -144,19 +144,15 @@ h1{
     padding:0 300px;
 }
 
-
 /* TODO 1 sonu============================================================================================================================================*/
 
-
 /* TODO 2 bashlangic--------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .introduction .entrance-right-side .h1{
     font-size: 55px;
 font-style: normal;
 font-weight: 800;
 }
-
 
 .introduction .entrance-right-side .h1  {
     color: var(--introduction-span-color);
@@ -205,12 +201,9 @@ font-weight: 800;
     padding:0 300px;   
 }
 
-
 /* TODO 2 sonu================================================================================================================================ */
 
-
 /* TODO 3 bashlangic-------------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .logoipsumlar img:hover{
     -webkit-box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
@@ -218,7 +211,6 @@ font-weight: 800;
     box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
     border-radius: 20px;
 }
-
 
 .services-cards .card:hover{
     -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
@@ -289,12 +281,9 @@ a:hover{
     border-radius: 20px;
 }
 
-
 /* TODO 3 sonu======================================================================================================================================*/
 
-
 /* TODO 4 bashlig------------------------------------------------------------------------------------------------------------------------------*/
-
 
 .abzas .direction-left-side h1{
     font-size: 55px;
@@ -347,195 +336,9 @@ margin-right: 10px;
     margin-left: 0;
 }
 
-
 /* TODO 4 sonu================================================================================================================================ */
 
-
-@media(max-width:575px) {
-    .parentdiv {  
-        max-width: 100%;
-    }
-    .entrance {
-        max-width: 100%;
-    }
-    .hisse {
-        max-width: 100%;
-    }
-
-}
-
-@media(min-width:576px) {
-.parentdiv {
-    max-width: 540px;
-    margin: 0 auto;
-    
-}
-.entrance {
-    max-width: 540px;
-    margin: 0 auto;
-}
-.hisse{
-    max-width: 540px;
-    margin: 0 auto;
-}
-}
-
-@media(min-width:768px) {
-    .parentdiv {
-        max-width: 720px;
-        margin: 0 auto;
-        
-    }
-    .entrance {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .hisse {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-}
-
-@media(min-width:992px) {
-    .parentdiv {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    .introduction {
-        display: flex;
-        
-    }
-
-    .introduction .intro-left-side h1 {
-        font-size: 55px;
-        width: 700px;
-    
-       
-    }
-
-    .introduction .intro-left-side {
-        padding: 92px 0;
-
-    }
-
-    .introduction .intro-right-side  {
-        padding-top: 72px;
-    }
-
-    .entrance {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-    
-    
-
-    .introduction .entrance-right-side .h1 {
-        font-size: 40px;
-        width: 700px
-        
-    }
-
-    .introduction .entrance-right-side {
-        padding: 92px 0;
-    }
-
-    .introduction .entrance-left-side   {
-        padding-top: 72px;
-        
-    }
-    .hisse {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    .abzas {
-        display: flex;
-        
-    }
-
-    .abzas .direction-left-side h1 {
-        font-size: 55px;
-        width: 700px;
-
-       
-    }
-
-    .abzas .direction-left-side {
-        padding: 92px 0;
-    }
-
-    .abzas .direction-right-side  {
-        padding-top: 72px;
-    }
-   
-    
-    
-}
-
-@media(min-width:1200px) {
-    .parentdiv {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-    
-    .entrance {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-    .hisse {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-
-}
-
-@media(min-width:768px) {
-header nav {
-    display: block;
-}
-
-.fa-bars {
-display: none;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.parent{
-    background-color: #08101e;
-
-  
-    padding: 100px 300px;
-  
-
-}
-
-.div-left article{
-    caret-color: #FFFF;
-}
-
-
-.profil{
-    color: #FFFF;
-    font-size: 18px;
-}
+/* TODO 5 bashlangic--------------------------------------------------------------------------------------------- */
 
 h3{
     color: #3A68B8;
@@ -544,15 +347,6 @@ h3{
     font-size: 16px;
 
 }
-
-/* .parent{
-    display: flex;
-    justify-content: space-between;
-} */
-
-/* .div-left{
-    padding: 10px;
-} */
 
 .h4{
     
@@ -563,6 +357,37 @@ h3{
     color: #666;
     display: flex;
     justify-content: space-between;
+}
+
+.h6{
+    
+    font-size: 18px;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color:#FFFF;   
+    display: flex;
+    justify-content: space-between;
+} 
+
+.h7{
+    font-size: 14px;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    color:#FFFF;
+}
+
+.parent{
+    background-color: #08101e;
+    padding: 100px 300px;
+}
+
+.div-left article{
+    caret-color: #FFFF;
+}
+
+.profil{
+    color: #FFFF;
+    font-size: 18px;
 }
 
 .i{
@@ -585,28 +410,7 @@ font-weight: 450;
 line-height: normal;
 }
 
-
-.h6{
-    
-    font-size: 18px;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    color:#FFFF;
-    
-    display: flex;
-    justify-content: space-between;
-   
-} 
-
-.h7{
-    font-size: 14px;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    color:#FFFF;
-    
-}
-
-
+/* TODO 5 sonu=============================================================================================================== */
 
 
 @media(max-width:575px) {
@@ -619,13 +423,34 @@ line-height: normal;
     .hisse {
         max-width: 100%;
     }
+    .parentdiv {  
+        max-width: 100%;
+    }
+    .entrance {
+        max-width: 100%;
+    }
+    .hisse {
+        max-width: 100%;
+    }
     .parent {
         max-width: 100%;
     }
-
 }
 
 @media(min-width:576px) {
+.parentdiv {
+    max-width: 540px;
+    margin: 0 auto;
+    
+}
+.entrance {
+    max-width: 540px;
+    margin: 0 auto;
+}
+.hisse{
+    max-width: 540px;
+    margin: 0 auto;
+}
 .parentdiv {
     max-width: 540px;
     margin: 0 auto;
@@ -646,6 +471,19 @@ line-height: normal;
 }
 
 @media(min-width:768px) {
+    .parentdiv {
+        max-width: 720px;
+        margin: 0 auto;
+        
+    }
+    .entrance {
+        max-width: 720px;
+        margin: 0 auto;
+    }
+    .hisse {
+        max-width: 720px;
+        margin: 0 auto;
+    } 
     .parentdiv {
         max-width: 720px;
         margin: 0 auto;
@@ -726,6 +564,7 @@ line-height: normal;
     .abzas .direction-left-side h1 {
         font-size: 55px;
         width: 700px;
+        
 
        
     }
@@ -737,10 +576,7 @@ line-height: normal;
     .abzas .direction-right-side  {
         padding-top: 72px;
     }
-
-
-
-    .parent{
+   .parent{
         max-width: 960px;
         margin: 0 auto;
     }
@@ -765,12 +601,24 @@ line-height: normal;
     .parent-div .div-left   {
         padding-top: 11px;
     }
-   
     
     
 }
 
 @media(min-width:1200px) {
+    .parentdiv {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    .entrance {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    .hisse {
+        max-width: 1140px;
+        margin: 0 auto;
+    } 
     .parentdiv {
         max-width: 1140px;
         margin: 0 auto;
@@ -800,3 +648,4 @@ header nav {
 display: none;
 }
 }
+
