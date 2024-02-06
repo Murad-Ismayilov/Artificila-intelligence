@@ -520,11 +520,10 @@ display: none;
 
 .parent{
     background-color: #08101e;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 300px 300px;
-    justify-content: center;
+
+  
+    padding: 100px 300px;
+  
 
 }
 
@@ -532,10 +531,29 @@ display: none;
     caret-color: #FFFF;
 }
 
+
 .profil{
     color: #FFFF;
     font-size: 18px;
 }
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+    padding: 10px 0;
+    font-size: 16px;
+
+}
+
+/* .parent{
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .div-left{
+    padding: 10px;
+} */
+
 .h4{
     
     font-size: 14px;
@@ -557,6 +575,17 @@ display: none;
     width: 117px;
 }
 
+.lorem{
+    font-size: 14px;
+    color: #FFFF;
+    margin-bottom: 40px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 450;
+line-height: normal;
+}
+
+
 .h6{
     
     font-size: 18px;
@@ -577,11 +606,6 @@ display: none;
     
 }
 
-.fa-solid {
-    font-size: 20px;
-    border: 1px;
-
-}
 
 
 
@@ -722,8 +746,10 @@ display: none;
     }
     .parent-div {
         display: flex;
-        
+        justify-content: space-between;
     }
+        
+   
 
     .parent-div .div-left h1 {
         font-size: 55px;
@@ -733,11 +759,11 @@ display: none;
     }
 
     .parent-div .div-left  {
-        padding: 92px 0;
+        padding: 2px 0;
     }
 
     .parent-div .div-left   {
-        padding-top: 72px;
+        padding-top: 11px;
     }
    
     
