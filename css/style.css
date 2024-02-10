@@ -253,6 +253,17 @@ font-weight: 600;
 
 
 
+
+.last-right{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
+   
+    background-color: #020a18;
+    color: #FFFF;
+    justify-content: space-between;
+}
+
 .services-cards{
     display: -ms-grid;
     display: grid;
@@ -393,6 +404,135 @@ border-radius: 5px;
 }
 
 
+/* TODO 4 hisse-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+.cards{
+    background-color: #08101e;
+    font-size: 20px;
+    
+}
+
+.card-right{
+    display: flex;
+    justify-content: space-between;
+   
+    color: #FFFF;
+}
+
+.card-right article{
+    padding: 14px;
+    font-size: 16px;
+}
+
+
+.card-right img{
+    padding: 10px;
+   
+}
+
+.last-share{
+    background-color: #08101e;
+    padding: 0 100px;
+   
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+
+}
+
+.call{
+    color: #FFFF;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    width: 151px;
+    height: 58px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+
+}
+
+.last-share .last-left h1 {
+    font-weight: 600;
+    
+}
+
+.last-share .last-left p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.last-share .last-left .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+    background-color: #08101e;
+    padding: 100px 80px;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+  
+}
+
+
+.h5{
+    color: #FFFF;
+    
+    font-size: 18px;
+}
 
 
 
@@ -400,7 +540,8 @@ border-radius: 5px;
 
 
 
-/* TODO  */
+
+/* TODO media hisseleri ------------------------------------------------------------------------------------------------------------------------------------------------  */
 
 
 @media(max-width:575px) {
@@ -411,6 +552,9 @@ border-radius: 5px;
         max-width: 100%;
     }
     .share{
+        max-width: 100%;
+    }
+    .last-share{
         max-width: 100%;
     }
    
@@ -433,6 +577,10 @@ border-radius: 5px;
         max-width: 540px;
         margin: 0 auto;
     }
+    .last-share{
+        max-width: 540px;
+        margin: 0 auto;
+    }
    
 }
 
@@ -450,7 +598,10 @@ border-radius: 5px;
         max-width: 720px;
         margin: 0 auto
     }
-    
+    .last-share{
+        max-width: 720px;
+        margin: 0 auto;
+    }
 }
 
 @media(min-width:992px) {
@@ -478,7 +629,9 @@ border-radius: 5px;
         width: 512px;
         height: 595px;
     }
+
 /* TODO 2 */
+
     .entrance {
         max-width: 960px;
         margin: 0 auto;
@@ -533,6 +686,30 @@ border-radius: 5px;
    
 }
 
+/* TODO 4 */
+
+
+.last-share  {
+    display: flex;
+    
+}
+.last-share  .last-left .h2 {
+    font-size: 42px;
+    color: #FFFF;
+
+
+}
+.last-share  .last-left {
+    padding: 92px 0;
+}
+.last-share  .last-right {
+    padding-top: 0px;
+}
+.last-share  .last-right img{
+    width: 512px;
+    height: 595px;
+}
+
 }
  
 @media(min-width:1200px) {
@@ -547,6 +724,11 @@ border-radius: 5px;
     }
     .share{
         max-width: 1140px;
+        margin: 0 auto
+    }
+    .last-share{
+        max-width: 1140px;
+        margin: 0 auto;
     }
 }
 
