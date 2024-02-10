@@ -1,8 +1,6 @@
-/* TODO 1 bashlangic--------------------------------------------------------------------------------------------------------------------------------------------*/
-
 :root {
     --secondary-color:#666;
-    --introduction-span-color:#FFFF;
+    --introduction-span-color:#FF8A56;
 }
 
 * {
@@ -12,405 +10,407 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 body {
-    font-family: 'Roboto', sans-serif;  
-} 
+    font-family: 'Roboto', sans-serif;
+}
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    /* TODO display: flex; sətir boyunca bizim elementleri düzür */
 
-header i{
-    color: #FFFF;
+    justify-content: space-between;
+    /* TODO  justify-content: space-between; img-nav arasına boşluq qoyur */
+
+    align-items: center;
+    /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
+
+    background-color: #0a121f;
+    padding: 0 99px;
+    
 }
 
 header nav {
     display: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav a {
+    color:#000;
+    margin-right: 10px;
     color: #FFFF;
-    margin-right: 20px;   
+    
 }
 
-.h2{
-    color: #3A68B8;
-    align-items: center;
-    display: flex;
+.parentdiv{
+   
+    padding: 32px;
+    margin: 20px;
+    
+}
+
+.introduction{
+    background-color: #08101e;
+    padding: 0 100px;
+   
 }
 
 .h3{
+    display: flex;
+    justify-content: space-between;
     color: #3A68B8;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 600;
-} 
+    font-size: 18px;
+    align-items: center;
 
-.introduction .intro-left-side h1{
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 800;
 }
 
-.introduction .intro-left-side h1  {
-    color: var(--introduction-span-color);
+.call{
+    color: #FFFF;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    width: 151px;
+    height: 58px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+
 }
 
-.introduction .intro-left-side article {
+.introduction .intro-left-side h1 {
+    font-weight: 600;
+    
+}
+
+.introduction .intro-left-side p {
     color:var(--secondary-color);
     font-weight: 400;
 }
 
 .book-a-call {
     margin-top: 40px;
-    
-}
-
-.book-a-call a{
-    border-radius: 5px;
 }
 
 .introduction .intro-left-side .book {
     background: #3A68B8;
+   
     color:#fff;
     width: 151px;
     height: 58px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+padding: 5px 15px;
+border-radius: 5px;
 }
 
-.logoipsumlar img:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-.introduction .intro-left-side .a {
-    background: #3A68B8;  
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-}
-
-body .book {
-    background: #3A68B8;  
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    padding: 2px 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;   
-    margin-top: 0 auto;
-}
-
-.Watch{
-    background: #3A68B8;  
-    color:#fff;
-    width: 151px;
-    height: 53px;
-    padding: 2px 2px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0 auto;
-}
-
-h1{
-    font-size: 10px;
-}
-
-.logoipsumlar{
-    display: flex;
+.div{
     justify-content: space-between;
-}
-
-.logoipsumlar{
-    padding: 40px 40px;
-    padding: 100px 0;
-}
-
-.parentdiv{
+    display: flex;
     background-color: #08101e;
-    padding:0 300px;
-}
-
-/* TODO 1 sonu============================================================================================================================================*/
-
-/* TODO 2 bashlangic--------------------------------------------------------------------------------------------------------------------------------------*/
-
-.introduction .entrance-right-side .h1{
-    font-size: 55px;
-font-style: normal;
-font-weight: 800;
-}
-
-.introduction .entrance-right-side .h1  {
-    color: var(--introduction-span-color);
-}
-
-.introduction .entrance-right-side article {
-    color:var(--secondary-color);
-    font-weight: 400;
-}
-
-.introduction .entrance-right-side .book {
-    background: #3A68B8;  
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-    font-size: 12px;
-}
-
-.introduction .entrance-right-side .a {
-    background: #3A68B8;
-    color:#fff;
-    width: 151px;
-    height: 58px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
+    padding: 100px 80px;
 }
 
 .h1{
-    color: #FFFF;
-    font-size: 10px;
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
 }
 
-.entrance .entrance-right-side .h2 {
-    font-size: 72px;
-    color: #FFFF;  
-}
-
-.entrance{
-    background-color: #020a18;
-    padding:0 300px;   
-}
-
-/* TODO 2 sonu================================================================================================================================ */
-
-/* TODO 3 bashlangic-------------------------------------------------------------------------------------------------------------------------------------*/
-
-.logoipsumlar img:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgb(255, 255, 255);
-    border-radius: 20px;
-}
-
-.services-cards .card:hover{
-    -webkit-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-    -moz-box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-    box-shadow: 28px -20px 27px -6px rgba(0,0,0,1);
-    border-radius: 0px;
-}
-
-.services h6{
-    text-align: center;
-    text-transform: uppercase;
-    color: #FF8A56;
-    font-size: 22px;
-    letter-spacing: 2px;
-}
-
-.services-cards .card{
-    transition: all .1s ease-in;
-    padding: 15px;
-    margin-bottom: 100px;
-    background-color: #666;
-    border-radius: 20px;
-}
-
-.services-cards{
-    display: -ms-grid;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(306px,1fr));
-    gap: 30px;
+.div{
     display: flex;
     justify-content: space-between;
-    padding: 100px;
 }
 
-h5:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 22px;
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
 }
 
-p:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    padding: 10px;
-    border-radius: 20px;
-    font-size: 20px;
-}
 
-p{
-    color: #FFFF;
-    opacity: 0.8;
-}
-
-h5{
-    color: #FFFFFF;
-    font-size: 20px;   
-}
-
-a:hover{
-    -webkit-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    box-shadow: 7px 9px 20px 6px rgba(0,0,0,1);
-    padding: 10px;
-    border-radius: 20px;
-}
-
-/* TODO 3 sonu======================================================================================================================================*/
-
-/* TODO 4 bashlig------------------------------------------------------------------------------------------------------------------------------*/
-
-.abzas .direction-left-side h1{
-    font-size: 55px;
-font-style: normal;
-font-weight: 800;
-}
-
-.abzas .direction-left-side h1  {
-    color: var(--introduction-span-color);
-}
-
-.abzas .direction-left-side article {
-    color:var(--secondary-color);
-    font-weight: 400;
-}
-
-.abzas .direction-left-side .book {
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 151px;
-    height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-font-size: 12px;
-}
-
-.abzas .direction-left-side .a {
-    background: #3A68B8;
-   
-    color:#fff;
-    width: 151px;
-    height: 58px;
-display: inline-flex;
-justify-content: center;
-align-items: center;
-margin-right: 10px;
-}
-
-.abzas .direction-left-side .h2 {
-    font-size: 72px;
-    color: #FFFF;  
-}
-
-.hisse{
-    background-color: #020a18;
-    padding:0 300px;
-    margin-left: 0;
-}
-
-/* TODO 4 sonu================================================================================================================================ */
-
-/* TODO 5 bashlangic--------------------------------------------------------------------------------------------- */
 
 h3{
     color: #3A68B8;
     font-size: 18px;
-    padding: 10px 0;
-    font-size: 16px;
-
-}
-
-.h4{
-    
-    font-size: 14px;
-
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    color: #666;
-    display: flex;
-    justify-content: space-between;
-}
-
-.h6{
-    
-    font-size: 18px;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    color:#FFFF;   
-    display: flex;
-    justify-content: space-between;
-} 
-
-.h7{
-    font-size: 14px;
-    padding: 10px 20px;
-    font-family: 'Roboto', sans-serif;
-    color:#FFFF;
-}
-
-.parent{
-    background-color: #08101e;
-    padding: 100px 300px;
-}
-
-.div-left article{
-    caret-color: #FFFF;
-}
-
-.profil{
-    color: #FFFF;
-    font-size: 18px;
-}
-
-.i{
-    
-    font-size: 14px;
-    padding: 10px 20px;
-    color: #FFFF;
-    display: flex;
-    justify-content: space-between;
-    width: 117px;
-}
-
-.lorem{
-    font-size: 14px;
-    color: #FFFF;
-    margin-bottom: 40px;
-    font-size: 14px;
 font-style: normal;
-font-weight: 450;
-line-height: normal;
+font-weight: 600;
+  
 }
 
-/* TODO 5 sonu=============================================================================================================== */
+
+
+/* TODO 2 hisse----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.entrance{
+   
+    padding: 0px;
+    
+    
+}
+
+.intro-section{
+    background-color: #020a18;
+    padding: 88px 100px;
+   
+}
+
+article{
+    color: #FFFF;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.call{
+    color: #FFFF;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    width: 151px;
+    height: 58px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+
+}
+
+.intro-section .div-right h2 {
+    font-weight: 600;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.intro-section .div-right p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.intro-section .div-right .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+    background-color: #08101e;
+    padding: 100px 80px;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+  
+}
+
+
+
+/* TODO kars hissesi----------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.services-cards{
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(192px,1fr));
+   
+    background-color: #020a18;
+    color: #FFFF;
+}
+
+.services-cards .card:hover{
+    -webkit-box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
+-moz-box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
+box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.services-cards img{
+    margin: 0 60px;
+}
+
+.services-cards .card{
+    transition: all .9s ease-in;
+    padding: 15px;
+    margin-bottom: 100px;
+
+}
+
+
+
+h5{
+    color: #FFFF;
+    opacity: 0.9;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+p{
+    opacity: 0.7;
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+
+
+/* TODO 3 hisse--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+.introd{
+    background-color: #08101e;
+    padding: 0 100px;
+   
+}
+
+.h3{
+    display: flex;
+    justify-content: space-between;
+    color: #3A68B8;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+
+}
+
+.call{
+    color: #FFFF;
+    background-color: #3A68B8;
+    border-radius: 5px;
+    width: 151px;
+    height: 58px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+
+
+}
+
+.introd .intro-left-side h1 {
+    font-weight: 600;
+    
+}
+
+.introduction .intro-left-side p {
+    color:var(--secondary-color);
+    font-weight: 400;
+}
+
+.book-a-call {
+    margin-top: 40px;
+}
+
+.introduction .intro-left-side .book {
+    background: #3A68B8;
+   
+    color:#fff;
+    width: 151px;
+    height: 58px;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+margin-right: 10px;
+padding: 5px 15px;
+border-radius: 5px;
+}
+
+.div{
+    justify-content: space-between;
+    display: flex;
+    background-color: #08101e;
+    padding: 100px 80px;
+}
+
+.h1{
+   margin-left: 500px;
+   margin-right: 400px;
+   font-size: 18px;
+   color: #000;
+ 
+}
+
+.div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoipsumlar h6{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+
+h3{
+    color: #3A68B8;
+    font-size: 18px;
+font-style: normal;
+font-weight: 600;
+  
+}
+
+
+
+
+
+
+
+
+/* TODO  */
 
 
 @media(max-width:575px) {
@@ -420,54 +420,24 @@ line-height: normal;
     .entrance {
         max-width: 100%;
     }
-    .hisse {
-        max-width: 100%;
-    }
-    .parentdiv {  
-        max-width: 100%;
-    }
-    .entrance {
-        max-width: 100%;
-    }
-    .hisse {
-        max-width: 100%;
-    }
-    .parent {
-        max-width: 100%;
-    }
+    
+   
 }
 
+
+
+
 @media(min-width:576px) {
-.parentdiv {
-    max-width: 540px;
-    margin: 0 auto;
-    
-}
-.entrance {
-    max-width: 540px;
-    margin: 0 auto;
-}
-.hisse{
-    max-width: 540px;
-    margin: 0 auto;
-}
-.parentdiv {
-    max-width: 540px;
-    margin: 0 auto;
-    
-}
-.entrance {
-    max-width: 540px;
-    margin: 0 auto;
-}
-.hisse{
-    max-width: 540px;
-    margin: 0 auto;
-}
-.parent{
-    max-width: 540px;
-    margin: 0 auto;
-}
+    .parentdiv {
+        max-width: 540px;
+        margin: 0 auto;
+        
+    }
+    .entrance {
+        max-width: 540px;
+        margin: 0 auto;
+    }
+   
 }
 
 @media(min-width:768px) {
@@ -480,27 +450,8 @@ line-height: normal;
         max-width: 720px;
         margin: 0 auto;
     }
-    .hisse {
-        max-width: 720px;
-        margin: 0 auto;
-    } 
-    .parentdiv {
-        max-width: 720px;
-        margin: 0 auto;
-        
-    }
-    .entrance {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .hisse {
-        max-width: 720px;
-        margin: 0 auto;
-    }
-    .parent{
-        max-width: 720px;
-        margin: 0 auto;
-    }
+    
+    
 }
 
 @media(min-width:992px) {
@@ -508,103 +459,84 @@ line-height: normal;
         max-width: 960px;
         margin: 0 auto;
     }
-
     .introduction {
         display: flex;
         
     }
+    .introduction .intro-left-side .h2 {
+        font-size: 42px;
+        color: #FFFF;
 
-    .introduction .intro-left-side h1 {
-        font-size: 55px;
-        width: 700px;
-    
-       
+
     }
-
     .introduction .intro-left-side {
         padding: 92px 0;
-
     }
-
-    .introduction .intro-right-side  {
-        padding-top: 72px;
+    .introduction .intro-right-side {
+        padding-top: 0px;
     }
-
+    .introduction .intro-right-side img{
+        width: 512px;
+        height: 595px;
+    }
+/* TODO 2 */
     .entrance {
         max-width: 960px;
         margin: 0 auto;
     }
-    
-    
-
-    .introduction .entrance-right-side .h1 {
-        font-size: 40px;
-        width: 700px
-        
-    }
-
-    .introduction .entrance-right-side {
-        padding: 92px 0;
-    }
-
-    .introduction .entrance-left-side   {
-        padding-top: 72px;
-        
-    }
-    .hisse {
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    .abzas {
+    .intro-section {
         display: flex;
         
     }
+    .intro-section .div-right .h2 {
+        font-size: 42px;
+        color: #FFFF;
 
-    .abzas .direction-left-side h1 {
-        font-size: 55px;
-        width: 700px;
-        
 
        
     }
-
-    .abzas .direction-left-side {
+    .intro-section .div-right {
         padding: 92px 0;
     }
+    .intro-section .div-left {
+        padding-top: 0px;
+    }
+    .intro-section .div-left img{
+        width: 512px;
+        height: 528px;
+    }
+ 
+/* TODO 3 */
 
-    .abzas .direction-right-side  {
-        padding-top: 72px;
-    }
-   .parent{
-        max-width: 960px;
-        margin: 0 auto;
-    }
-    .parent-div {
-        display: flex;
-        justify-content: space-between;
-    }
-        
-   
 
-    .parent-div .div-left h1 {
-        font-size: 55px;
-        width: 700px;
-
-       
-    }
-
-    .parent-div .div-left  {
-        padding: 2px 0;
-    }
-
-    .parent-div .div-left   {
-        padding-top: 11px;
-    }
-    
+.parentdiv {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.introd {
+    display: flex;
     
 }
+.introd.intro-left-side .h2 {
+    font-size: 42px;
+    color: #FFFF;
 
+
+}
+.introd .intro-left-side {
+    padding: 92px 0;
+}
+.introd .intro-right-side {
+    padding-top: 0px;
+}
+.introd .intro-right-side img{
+    width: 512px;
+    height: 595px;
+}
+
+
+}
+ 
 @media(min-width:1200px) {
     .parentdiv {
         max-width: 1140px;
@@ -615,28 +547,7 @@ line-height: normal;
         max-width: 1140px;
         margin: 0 auto;
     }
-    .hisse {
-        max-width: 1140px;
-        margin: 0 auto;
-    } 
-    .parentdiv {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-    
-    .entrance {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-    .hisse {
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-    .parent{
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-
+   
 }
 
 @media(min-width:768px) {
@@ -648,4 +559,30 @@ header nav {
 display: none;
 }
 }
+
+
+
+
+
+
+
+
+/* TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
