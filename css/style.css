@@ -23,9 +23,9 @@ header {
     align-items: center;
     /* TODO align-items: center; yuxarıdan aşağıya doğru düz mərkəzə çəkir */
 
-    background-color: #0a121f;
-    padding: 0 99px;
     
+    padding: 0 99px;
+    background: linear-gradient(to bottom, #0a111e ,#0b1320 )
 }
 
 header nav {
@@ -266,7 +266,7 @@ font-weight: 600;
     -webkit-box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
 -moz-box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
 box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
-    border-radius: 20px;
+    border-radius: 120px 20px;
 }
 
 .services-cards img{
@@ -280,7 +280,11 @@ box-shadow: 28px -20px 27px -6px rgb(255, 255, 255);
 
 }
 
-
+.card{
+    background: linear-gradient(to bottom,#0d1422 ,#19202d);
+    margin: 5px;
+    border-radius: 20px 20px;
+}
 
 h5{
     color: #FFFF;
@@ -309,9 +313,8 @@ p{
 
 
 
-
-.introd{
-    background-color: #08101e;
+.share{
+    background-color: #020a18;
     padding: 0 100px;
    
 }
@@ -340,21 +343,16 @@ p{
 
 }
 
-.introd .intro-left-side h1 {
+.share .left-side h1 {
     font-weight: 600;
     
 }
 
-.introduction .intro-left-side p {
-    color:var(--secondary-color);
-    font-weight: 400;
-}
 
-.book-a-call {
-    margin-top: 40px;
-}
 
-.introduction .intro-left-side .book {
+
+
+.share .left-side .book {
     background: #3A68B8;
    
     color:#fff;
@@ -395,14 +393,6 @@ border-radius: 5px;
 }
 
 
-h3{
-    color: #3A68B8;
-    font-size: 18px;
-font-style: normal;
-font-weight: 600;
-  
-}
-
 
 
 
@@ -420,7 +410,9 @@ font-weight: 600;
     .entrance {
         max-width: 100%;
     }
-    
+    .share{
+        max-width: 100%;
+    }
    
 }
 
@@ -437,6 +429,10 @@ font-weight: 600;
         max-width: 540px;
         margin: 0 auto;
     }
+    .share{
+        max-width: 540px;
+        margin: 0 auto;
+    }
    
 }
 
@@ -450,7 +446,10 @@ font-weight: 600;
         max-width: 720px;
         margin: 0 auto;
     }
-    
+    .share{
+        max-width: 720px;
+        margin: 0 auto
+    }
     
 }
 
@@ -509,31 +508,30 @@ font-weight: 600;
 /* TODO 3 */
 
 
-.parentdiv {
-    max-width: 960px;
-    margin: 0 auto;
-}
-.introd {
+
+.share {
     display: flex;
     
 }
-.introd.intro-left-side .h2 {
-    font-size: 42px;
-    color: #FFFF;
 
-
-}
-.introd .intro-left-side {
+.share .left-side {
     padding: 92px 0;
 }
-.introd .intro-right-side {
+.share .right-side {
     padding-top: 0px;
 }
-.introd .intro-right-side img{
+.share .right-side img{
     width: 512px;
     height: 595px;
 }
 
+.share .left-side .h4 {
+    font-size: 30px;
+    color: #FFFF;
+
+
+   
+}
 
 }
  
@@ -547,7 +545,9 @@ font-weight: 600;
         max-width: 1140px;
         margin: 0 auto;
     }
-   
+    .share{
+        max-width: 1140px;
+    }
 }
 
 @media(min-width:768px) {
@@ -564,10 +564,6 @@ display: none;
 
 
 
-
-
-
-/* TODOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO */
 
 
 
